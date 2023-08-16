@@ -1,0 +1,13 @@
+TLS/SSL are methods to encrypt messages
+Encryption is when a device sends a message, and the message is scrambled. 
+The only way to understand the message is through a key, which only the receiver device knows. 
+This key is changed and deleted everytime, and so is the scrambleness of the message
+The password for my email is not working :(
+
+
+SMTP_SSL -> Send email through TLS encryption in a secure environment. 
+Send message, then encrypts message, and inteprets the message again
+
+.starttls -> Sends email with TLS encryption in a non secure environment
+
+
