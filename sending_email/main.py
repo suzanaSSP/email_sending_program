@@ -7,7 +7,7 @@ def main():
         reader = csv.reader(file)
     
         for email, name in reader:
-            personalized_emails(email)
+            personalized_emails(email, name, "Suzana", "sophomore")
 
 if __name__ == '__main__':
     main()

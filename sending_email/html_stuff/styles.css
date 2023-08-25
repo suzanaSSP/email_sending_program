@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-container {
+    position: relative; /* Sets the container as the reference for absolute positioning */
+    width: 25%; /* Adjust this to match your image's width */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; /* Adjust this to position the text vertically */
+    left: 50%; /* Adjust this to position the text horizontally */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+  }
